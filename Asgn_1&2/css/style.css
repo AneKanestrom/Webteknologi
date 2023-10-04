@@ -1,0 +1,19 @@
+img {
+    max-width: 150px;
+    border: 5px solid white;
+    border-radius: 5px;
+
+}
+
+
+h1,h2 { 
+    font-family: Georgia;
+}
+
+body {
+    background-color: rgb(186, 222, 249);
+  }
+
+p {
+    font-family: Georgia, Helvetica, sans-serif;
+}

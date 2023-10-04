@@ -1,0 +1,6 @@
+Give a brief example of when to use ID (#id) and when to use classes (.class) in CSS.
+    Forskjellen på class og id er at samme class kan brukes på flere elementer på samme nettside, men en id kan bare brukes en gang.
+• What does RGBA mean and what colors can you express with it?
+    RGBA-funksjonen returnerer en farge basert på røde, grønne og blå fargekomponenter.
+• What CSS selector matches all the p elements inside the article element in the following HTML?
+    CSS sellectoren er .article
