@@ -1,0 +1,46 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+body {
+    background-image: url(./img/hovedbygget.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ 
+  #screen {
+    position: relative;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+}
+
+  
+
+ img {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+    
+  }
+
+  .content {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+  }
+  
+
+
+  @media screen and (max-width: 940px) {
+    video {
+        display: hide !important;
+    }
+
+}
