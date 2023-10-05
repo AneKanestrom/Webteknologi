@@ -1,5 +1,13 @@
 Questions 
 1. What is the difference between position: absolute and position: fixed?
+
+position: absolute depends on nearby elements, while position: fixed stays in one spot on the screen even when you scroll.
+
 2. With CSS3, how do we access the third element within another element?
+
+:nth-child() pseudo-class. We use: .parent-element :nth-child(3) 
+
 3. What will the CSS snippet at the end of this section do if the visitor is browsing on a device with
 320 x 568 resolution?
+
+The lofo will be removed. display = none
