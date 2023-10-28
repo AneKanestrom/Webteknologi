@@ -1,30 +1,51 @@
 /* Part 2 */
-let i;
-for (i=0;i<21;i++) {
+
+console.log('PART 2')
+
+for (let i = 1; i <= 20;i++) {
     console.log(i)
 }
-console.log('PART 2')
-    
 
 /* Part 3 */
+
 console.log('PART 3')
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
+for (let i = 0; i < numbers.length; i++) {
+    let a =  numbers[i]%3 == 0
+    let b = numbers[i]%5 == 0
+
+    if (a) {
+        console.log('eple')
+    }
+
+    if (b) {
+        console.log('kake')
+    }
+
+    if (a && b ) {
+        console.log('eplekake')
+    }
+	console.log(numbers[i])
+}
+
 /* Part 4 */
 
 /* Part 5 */
-function changeDisplay () {
 
-}
+// function changeDisplay () {
 
-function changeVisibility () {
+// }
 
-}
+// function changeVisibility () {
 
-function reset () {
+// }
 
-}
+// function reset () {
+
+// }
+
 
 /* Part 6 */
 const technologies = [
