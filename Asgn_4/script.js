@@ -31,6 +31,8 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 /* Part 4 */
+let title = document.getElementById('title') 
+title.innerText = 'Hello, JavaScript'
 
 /* Part 5 */
 
