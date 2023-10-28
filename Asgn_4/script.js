@@ -36,17 +36,21 @@ title.innerText = 'Hello, JavaScript'
 
 /* Part 5 */
 
-// function changeDisplay () {
+let magic = document.getElementById('magic')
 
-// }
+function changeDisplay () {
+    magic.style.display = 'none'
+}
 
-// function changeVisibility () {
+function changeVisibility () {
+    magic.style.visibility = 'hidden'
+    magic.style.display = 'block'
+}
 
-// }
-
-// function reset () {
-
-// }
+function reset () {
+    magic.style.display = 'block'
+    magic.style.visibility = 'visible'
+}
 
 
 /* Part 6 */
