@@ -7,7 +7,54 @@
     </head>
     <body>
         <form action="https://folk.ntnu.no/anderobs/webtek/receive_form.php" method="post">
+            <div>
+                <label for="name">Real name:</label>
+                <input type="text" name = "name">
+            </div>
+            <div>
+                <label>Gender:</label>
+                <input list="gender" name="gender" >
+                <datalist id="gender">
+                    <option value="Female">
+                    <option value="Male">
+                </datalist>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            <div>
+                <label for="hero">Hero name:</label>
+                <input type="text" id="hero" name ="hero">
+            </div>
+            <div>
+                <label for="spandex">Do you wear spandex?</label>
+                <input type="checkbox" name="spandex" value="spandex">
+            </div>
+            <div>
+                <label for="strength">Strength:</label>
+                <input type="number" name = "strength" max="10" min="1" required />
+            </div>
+            <div>
+                <label for="speed">Speed:</label>
+                <input type="number" name = "speed" max="10" min="1" required />
+            </div>
+            <div>
+                <label for="intelligence">Intelligence:</label>
+                <input type="number" name = "intelligence" max="10" min="1" required />
+            </div>
+
+            <div>
+                <input type="submit" value="Submit tax form">
+            </div>
 
         </form>
+    
+        <script src="./script.js"></script> 
+
     </body>
 </html>

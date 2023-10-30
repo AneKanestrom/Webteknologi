@@ -75,3 +75,7 @@ for (let tech of technologies) {
     liElement.textContent = tech;
     ulElement.appendChild(liElement);
 }
+
+
+
+
