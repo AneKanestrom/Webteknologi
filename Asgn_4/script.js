@@ -67,3 +67,11 @@ const technologies = [
     'Bootstrap',
     'Node.js'
 ];
+
+let ulElement = document.getElementById("tech");
+
+for (let tech of technologies) {
+    const liElement = document.createElement("li");
+    liElement.textContent = tech;
+    ulElement.appendChild(liElement);
+}
