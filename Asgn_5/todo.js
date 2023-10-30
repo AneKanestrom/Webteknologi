@@ -3,8 +3,7 @@ let myOutput = document.getElementById('myOutput')
 
 function addTask() {
     
-    let newItem = document.createElement("li");
-    newItem.innerHTML = myInput.value
-    myOutput.appendChild(newItem);
+    myOutput.innerHTML += "<li><input type='checkbox'> "+ myInput.value +"</li>"
+
 
 }
