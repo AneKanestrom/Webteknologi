@@ -3,7 +3,7 @@ let myOutput = document.getElementById('myOutput')
 
 function addTask() {
     
-    myOutput.innerHTML += "<li><input type='checkbox'> "+ myInput.value +"</li>"
+    myOutput.innerHTML += "<li><input type='checkbox'> "+ myInput.value +"</li>"  
 
 
 }
