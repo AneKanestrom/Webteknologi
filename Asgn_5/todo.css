@@ -46,7 +46,7 @@ input[type=submit]:hover {
     flex-direction: column;
 }
 
-input[type=checkbox] {
+input[type=chekbox] {
     cursor: pointer;
     height: 3vh;
     width: 3vh;
@@ -54,9 +54,7 @@ input[type=checkbox] {
     outline:none;
 }
 
-input[type=checkbox]:hover {
-    color: #6c757d;
+li input[type='checkbox']:checked {
+    color: #0077b6;
+    text-decoration: line-through;
 }
-
-
-
