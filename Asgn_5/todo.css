@@ -46,15 +46,30 @@ input[type=submit]:hover {
     flex-direction: column;
 }
 
-input[type=chekbox] {
+input[type=checkbox] {
     cursor: pointer;
     height: 3vh;
     width: 3vh;
-    color: #adb5bd;
-    outline:none;
-}
+    border: 1px solid #adb5bd;
+    outline: none;
+    margin-right: 2vh;
+  }
+  
+  input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+  }
 
-li input[type='checkbox']:checked {
-    color: #0077b6;
+  #completionStatus {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+  }
+
+  ul .checked{
+    color: #555;
     text-decoration: line-through;
 }
+
+ 
